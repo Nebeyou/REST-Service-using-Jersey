@@ -20,6 +20,8 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
+    	
+    	System.out.println("This one work fine!");
         return "Got it!";
     }
 }
